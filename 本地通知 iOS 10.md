@@ -187,3 +187,4 @@ fetchCompletionHandler:
 
 ```
 
+参考：[简书徐不同](http://www.jianshu.com/p/3d602a60ca4f)

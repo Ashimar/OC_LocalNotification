@@ -15,6 +15,7 @@
 		095EFEA51DC8477000BEBEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095EFEA31DC8477000BEBEB9 /* LaunchScreen.storyboard */; };
 		095EFEB01DC8477000BEBEB9 /* OC_LocalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095EFEAF1DC8477000BEBEB9 /* OC_LocalNotificationTests.m */; };
 		095EFEBB1DC8477000BEBEB9 /* OC_LocalNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095EFEBA1DC8477000BEBEB9 /* OC_LocalNotificationUITests.m */; };
+		095EFECD1DC866E700BEBEB9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 095EFECC1DC866E700BEBEB9 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		095EFEB61DC8477000BEBEB9 /* OC_LocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC_LocalNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095EFEBA1DC8477000BEBEB9 /* OC_LocalNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_LocalNotificationUITests.m; sourceTree = "<group>"; };
 		095EFEBC1DC8477000BEBEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095EFECC1DC866E700BEBEB9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		095EFE941DC8476F00BEBEB9 /* OC_LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				095EFECC1DC866E700BEBEB9 /* 1.jpg */,
 				095EFE981DC8476F00BEBEB9 /* AppDelegate.h */,
 				095EFE991DC8476F00BEBEB9 /* AppDelegate.m */,
 				095EFE9B1DC8476F00BEBEB9 /* ViewController.h */,
@@ -252,6 +255,7 @@
 				095EFEA51DC8477000BEBEB9 /* LaunchScreen.storyboard in Resources */,
 				095EFEA21DC8477000BEBEB9 /* Assets.xcassets in Resources */,
 				095EFEA01DC8476F00BEBEB9 /* Main.storyboard in Resources */,
+				095EFECD1DC866E700BEBEB9 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y637SH92KM;
 				INFOPLIST_FILE = OC_LocalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhz.OC-LocalNotification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y637SH92KM;
 				INFOPLIST_FILE = OC_LocalNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhz.OC-LocalNotification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +520,7 @@
 				095EFEC11DC8477000BEBEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095EFEC21DC8477000BEBEB9 /* Build configuration list for PBXNativeTarget "OC_LocalNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				095EFEC41DC8477000BEBEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095EFEC51DC8477000BEBEB9 /* Build configuration list for PBXNativeTarget "OC_LocalNotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				095EFEC71DC8477000BEBEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
